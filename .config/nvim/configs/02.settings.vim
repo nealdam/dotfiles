@@ -19,6 +19,8 @@ set shiftwidth=4
 set splitright
 set splitbelow
 
+set number
+
 " turn terminal to normal mode with escape
 tnoremap <Esc> <C-\><C-n>
 

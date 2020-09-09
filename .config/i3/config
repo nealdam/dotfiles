@@ -52,7 +52,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec alacritty 
+bindsym $mod+Return exec xterm 
 
 
 # kill focused window
@@ -199,6 +199,6 @@ bindsym $mod+r mode "resize"
 for_window [class=".*"] border pixel 0
 gaps inner 10
 
-assign [class="Alacritty"] $ws1
+assign [class="XTerm"] $ws1
 assign [class="firefox"] $ws2
 assign [class="discord"] $ws9

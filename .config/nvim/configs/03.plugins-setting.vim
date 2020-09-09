@@ -23,8 +23,9 @@ let g:fzf_action = {
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
 "Theme
-if (has("termguicolors"))
+if has('nvim') || has("termguicolors")
 	set termguicolors
 endif
 syntax enable
 colorscheme challenger_deep
+set t_Co=16
